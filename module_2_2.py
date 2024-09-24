@@ -1,4 +1,4 @@
-# 1
+# Способ 1
 first, second, third = int(input('Введите 1 число: ')), int(input('Введите 2 число: ')), int(input('Введите 3 число: '))
 if first == second == third:
     print(3)
@@ -7,7 +7,7 @@ elif second != first and second == third or first == second and first != third o
 else:
     print(0)
 
-# 2
+# Способ 2
 set_ = {first, second, third}
 if len(set_) == 1:
     print(3)
